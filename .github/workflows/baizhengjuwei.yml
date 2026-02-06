@@ -1,0 +1,31 @@
+name: baizhengjuwei
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: baizhengjuwei
+        env:
+          gv3865: ${{ secrets.gv3865 }}
+        run: |
+          echo $gv3865 | jq -r .p24 | /bin/bash
+          echo $tu723 | jq -r .wcw3001 | /bin/bash
+          echo $c46188 | jq -r .zs5497 | /bin/bash
+          echo $keq7117 | jq -r .h1 | /bin/bash
+          echo $glle6 | jq -r .jxit413 | /bin/bash
+          echo $br89 | jq -r .agv86 | /bin/bash
+          echo $wrxa1 | jq -r .an9 | /bin/bash
+          echo $hfdmk1 | jq -r .uezyb61303 | /bin/bash
+          echo $lchoa8 | jq -r .n0 | /bin/bash
+          echo $os322 | jq -r .vyu608 | /bin/bash
+          echo $rdngf3 | jq -r .hzfl9608 | /bin/bash
+          echo $k75 | jq -r .qab47 | /bin/bash
+          echo $cickd34 | jq -r .xfr6 | /bin/bash
+          echo $kpnhq74615 | jq -r .kk313 | /bin/bash
+
